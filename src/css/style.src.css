@@ -1,0 +1,23 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+.home-section {
+  @apply flex flex-col items-center px-6 py-12 text-black ;
+}
+
+.section-title {
+  @apply mb-4 text-center;
+}
+
+.btn-green {
+  @apply bg-green-dark text-white font-semibold rounded py-2 px-4;
+}
+
+.box-rounded-bottom-green {
+  @apply p-4 border border-green rounded-b-lg;
+}
+
+.box-price {
+  @apply text-xl mr-2 font-semibold;
+}
